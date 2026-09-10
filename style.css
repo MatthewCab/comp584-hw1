@@ -15,7 +15,7 @@ html {
 /* adjust typography defaults */
 body {
   margin: 1rem;
-  font-family: sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   line-height: 1.5;
 }
 
@@ -26,7 +26,75 @@ video {
   max-width: 100%;
 }
 
+h1 {
+  margin-block: 0.67em;
+  font-size: 2em;
+  color: white;
+}
+h3 {
+  margin-block: 0.67em;
+  color: white;
+}
+
 p {
   color: rgb(0, 132, 255);
+}
+
+/*section 1 formatting*/
+.heading-section-1{
+  margin: 0;
+  padding: 0.3rem;
+  background-color: #05d828;
+}
+
+.heading-section-1 > h2,
+.intro-section-1 { 
+  margin: 0.5rem;
+  padding: 0.3rem;
+  font-size: 1.2rem;
+}
+
+.intro-section-1 {
+  background: right/contain content-box border-box no-repeat
+  white;
+}
+
+.intro-section-1 > p { 
+  margin: 0.5rem;
+  font-size: 1.2rem;
+}
+
+/*section 3 formatting*/
+.heading-section-3 {
+  margin: 0;
+  padding: 0.3rem;
+  background-color: #fa7dfa;
+}
+
+.heading-section-3 > h2,
+.intro-section-3 { 
+  margin: 0.5rem;
+  padding: 0.3rem;
+  font-size: 1.2rem;
+}
+
+.intro-section-3 {
+  background: right/contain content-box border-box no-repeat
+  white;
+}
+
+.intro-section-3 > p { 
+  margin: 0.5rem;
+  font-size: 1.2rem;
+}
+
+aside {
+  width:60%;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  float:right;
+  box-shadow: inset 5px 0 5px -5px yellow;
+  font-style: italic;
+  color: yellow;
 }
 
